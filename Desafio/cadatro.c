@@ -16,7 +16,9 @@ int main(){
     char estado[20], card_id[4], city[20], estado1[20], card_id1[4], city1[20];
     strcpy(card_id, "A01");
     strcpy(card_id1, "B01");
+    
     int populacao, ponto_turistico, ponto_turistico1, populacao1;
+    
     float area, pib, area1, pib1;
  
     // Exibindo mensagem de boas-vindas
