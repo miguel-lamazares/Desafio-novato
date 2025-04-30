@@ -1,37 +1,19 @@
-// Criado por Miguel Lamazares
-
-/* IMPORTANDO BIBLIOTECAS NECESSÁRIAS
-1- stdio.h: Para funções de entrada e saída
-2- locale.h: Permitindo o uso de caracteres especiais
-*/
 #include <stdio.h>
 #include <locale.h>
 
 int main()
 {
 
-    // Definindo o locale para o idioma português do Brasil com a ISO 8859-1
     setlocale(LC_ALL, "Portuguese_Brazil");
 
-    // Declarando variáveis
-
-    // variaveis do tipo char para amazenar textos
     char estado[20], card_id[4], city[20], estado1[20], card_id1[4], city1[20];
-
-    // codigos das cartas
     strcpy(card_id, "A01");
     strcpy(card_id1, "B01");
 
-    // variaveis do tipo int para armazenar numeros inteiros
     int populacao, ponto_turistico, ponto_turistico1, populacao1;
-
-    // variaveis do tipo float para armazenar numeros decimais
     float area, pib, area1, pib1;
 
-    // Exibindo mensagem de boas-vindas
     printf("Bem-vindo ao sistema de cadastro de cidades!\n\n");
-
-    // Solicitando dados para a primeira carta
     printf("Digite o nome do estado: ");
     scanf("%s", estado);
 
@@ -50,12 +32,10 @@ int main()
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &ponto_turistico);
 
-    // Exibindo mensagem de confirmação
     printf("\nDados coletados com sucesso!\n\nIniciando o cadastramento da segunda carta, pressione Enter para continuar\n");
-    getchar(); // Limpa o buffer do teclado
-    getchar(); // Aguarda o usuário pressionar Enter
+    getchar();
+    getchar();
 
-    // Solicitando informações para a segunda carta
     printf("Digite o nome do estado: ");
     scanf("%s", estado1);
 
@@ -74,12 +54,10 @@ int main()
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &ponto_turistico1);
 
-    // Exibindo mensagem de confirmação
     printf("\nDados coletados com sucesso!\n\nPressione Enter para visualizar as cartas registradas\n\n");
-    getchar(); // Limpa o buffer do teclado
-    getchar(); // Aguarda o usuário pressionar Enter
+    getchar();
+    getchar();
 
-    // Confecção da carta 1
     printf("------------CARTA-1-------------\n");
     printf("Código: %s\n", card_id);
     printf("Estado: %s\n", estado);
@@ -89,9 +67,8 @@ int main()
     printf("PIB: %.2f\n", pib);
     printf("Pontos turísticos: %d\n", ponto_turistico);
     printf("\nPressione Enter para visualizar a segunda carta\n\n");
-    getchar(); // aguarda o usuário pressionar Enter
+    getchar();
 
-    // Confecção da carta 2
     printf("------------CARTA-2-------------\n");
     printf("Código: %s\n", card_id1);
     printf("Estado: %s\n", estado1);
@@ -101,9 +78,8 @@ int main()
     printf("PIB: %.2f\n", pib1);
     printf("Pontos turísticos: %d\n", ponto_turistico1);
 
-    // finaizando o programa
     printf("\nObrigado por utilizar o sistema de cadastro de cidades!\n\nPressione Enter para finalizar o programa\n\n");
-    getchar(); // aguarda o usuário pressionar Enter
+    getchar(); 
 
-    return 0; // encerra o programa
+    return 0; 
 }
