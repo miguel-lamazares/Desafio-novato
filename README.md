@@ -75,7 +75,7 @@ float area, pib, area1, pib1;
 ```bash
 printf("Bem-vindo ao sistema de cadastro de cidades!\n\n");
 ```
-mostra um mensagem de boas vindas ao usuario
+- Mensagem de boas-vindas ao usuário.
 
 ```bash 
     printf("Digite o nome do estado: ");
@@ -96,14 +96,15 @@ mostra um mensagem de boas vindas ao usuario
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &ponto_turistico);
 ```
-Coleta os dados no formato apresentado anteriormente, sendo usados posteriomente a criacao da primeira carta
+- Coleta os dados no formato apresentado anteriormente, sendo usados posteriomente para criação da primeira carta.
 
 ```bash
  printf("\nDados coletados com sucesso!\n\nIniciando o cadastramento da segunda carta, pressione Enter para continuar\n");
         getchar();
         getchar();
 ```
-Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para continuar, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
+- Exibe mensagem de sucesso.
+- Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para continuar, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
 
 
 
@@ -128,14 +129,14 @@ printf("Digite o nome do estado: ");
     printf("Digite o número de pontos turísticos: ");
     scanf("%d", &ponto_turistico1);
 ```
-Coleta os dados no formato apresentado anteriormente, sendo usados posteriomente a criacao da primeira carta
+- Coleta os dados no formato apresentado anteriormente, sendo usados posteriomente a criação da segunda carta.
 
 ```bash
     printf("\nDados coletados com sucesso!\n\nPressione Enter para visualizar as cartas registradas\n\n");
         getchar();
         getchar();
 ```
-Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para visualizar as cartas, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
+- Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para visualizar as cartas, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
 
 ### confecção das cartas - 🃏
 
@@ -151,7 +152,8 @@ Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para
     printf("\nPressione Enter para visualizar a segunda carta\n\n");
         getchar();
 ```
-Mostras os dados da primeira carta, e pede para o usuario precionar *enter* para visualizar a secunda carta.
+- Mostras os dados da primeira carta
+- pede para o usuario precionar *enter* para visualizar a segunda carta.
 
 ```bash
     printf("------------CARTA-2-------------\n");
@@ -165,7 +167,8 @@ Mostras os dados da primeira carta, e pede para o usuario precionar *enter* para
     printf("\nObrigado por utilizar o sistema de cadastro de cidades!\n\nPressione Enter para finalizar o programa\n\n");
         getchar();
    ```
-Mensagem de adradecimento ao usuario, e pede para o usuario precionar *enter* para finalizar o programa.
+- Mensagem de adradecimento ao usuario
+- pede para o usuario precionar *enter* para finalizar o programa.
 
 
 
