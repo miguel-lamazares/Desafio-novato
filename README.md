@@ -172,4 +172,4 @@ printf("Digite o nome do estado: ");
 
 
 
-## Miguel Lamazares
+## Miguel Lamazares.
