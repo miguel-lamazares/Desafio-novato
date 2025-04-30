@@ -104,7 +104,7 @@ printf("Bem-vindo ao sistema de cadastro de cidades!\n\n");
         getchar();
 ```
 - Exibe mensagem de sucesso.
-- Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para continuar, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
+- Informa ao usuário que os dados foram salvos e espera ele pressionar `Enter` para continuar, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
 
 
 
@@ -136,7 +136,7 @@ printf("Digite o nome do estado: ");
         getchar();
         getchar();
 ```
-- Informa ao usuário que os dados foram salvos e espera ele pressionar Enter para visualizar as cartas, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
+- Informa ao usuário que os dados foram salvos e espera ele pressionar `Enter` para visualizar as cartas, O getchar() duplo é usado para limpar o buffer do scanf() e esperar o pressionamento da tecla.
 
 ### confecção das cartas - 🃏
 
@@ -153,7 +153,7 @@ printf("Digite o nome do estado: ");
         getchar();
 ```
 - Mostras os dados da primeira carta
-- pede para o usuario precionar *enter* para visualizar a segunda carta.
+- pede para o usuario precionar `enter` para visualizar a segunda carta.
 
 ```bash
     printf("------------CARTA-2-------------\n");
@@ -168,8 +168,8 @@ printf("Digite o nome do estado: ");
         getchar();
    ```
 - Mensagem de adradecimento ao usuario
-- pede para o usuario precionar *enter* para finalizar o programa.
+- pede para o usuario precionar `enter` para finalizar o programa.
 
 
 
-## Miguel Lamazares
+## Miguel Lamazares.
